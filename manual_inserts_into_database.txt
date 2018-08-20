@@ -1,0 +1,18 @@
+/****************************************/
+*	 Creating Dummy inserts	        *
+/****************************************/
+
+//script for staffs table
+INSERT INTO staffs(id, firstName, lastName, email, password, phoneNumber, technical) VALUES(1, 'Riya', 'J', 'riya@pettasker.net', 'pswd', '3333333333', '1');
+
+//script for report table
+INSERT INTO reports(reportId, reason, reportDetails, reportedPersonId, reporterId, title, reportStatus) VALUES(1, 'Account Deletion', 'I want to get rid of my account. I don’t have a pet and I have no reason to use PetTasker', 1, 1, 'Delete my account!', 'INCOMPLETE');
+
+INSERT INTO reports(reportId, reason, reportDetails, reportedPersonId, reporterId, title, reportStatus) VALUES(2, 'Dissatisfaction', 'I had a terrible experience. This PetWorker did such a bad job that after he was gone my poor dog suffered from a stomachache!', 2, 1, 'So disappointed', 'INCOMPLETE');
+
+//script for task table
+INSERT INTO tasks(taskId,taskStatus, taskDescription, taskLocation, taskName, taskPrice) VALUES(56, “openTask", "Hello Walk my Pet Please!“, "Sydney", "Look after my dog", 20);
+
+INSERT INTO tasks(taskId,taskStatus, taskDescription, taskLocation, taskName, taskPrice) VALUES(4, "completedTask", "Hello this is a argent call to look after my dog while I'm away", "Sydney", "Look after my dog", 250);
+
+INSERT INTO tasks(taskId,taskStatus, taskDescription, taskLocation, taskName, taskPrice) VALUES(8, “openTask", "Hi Walk my cat please“, "Sydney", "Look after my dog", 21);
